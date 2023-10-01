@@ -4,7 +4,9 @@
   <img src="./sample.png" />
 </p>
 
-
+**LINK zur KI-Gesichtsmaskenerkennung direkt in Browser:**
+  https://miaoima.github.io/Vehicle_Identification/
+---
 ---
 
 

@@ -11,6 +11,7 @@
 
 
 **Beschreibung**
+
 Dieses Projekt nutzt das bereits trainierte yolov8n-Modell, welches eine hohe Genauigkeit in der Erkennung und Messung zeigt, und das Modell reagiert auch sehr schnell. Obwohl beim Verarbeiten von Videos einige Rahmen und Bilder nicht synchron sind, ist das Gesamtergebnis akzeptabel. Mit TensorFlow.js kann das Modell direkt im Frontend der Webseite Objekte in Videos erkennen und die Ergebnisse fast in Echtzeit anzeigen.
 
 In anderen Projekten habe ich auch gesehen, dass manche Leute yolov8x verwenden. Yolov8x hat mehr Parameter und sollte theoretisch in Bezug auf die Erkennungsgenauigkeit überlegen sein, benötigt aber auch mehr Verarbeitungszeit, was es schwieriger macht, Ergebnisse und Videos synchron auszugeben. In der Anfangsphase des Projekts habe ich yolov8x ausprobiert, aber ich fand, dass die Asynchronität zwischen den Bildern nicht akzeptabel ist, also habe ich mich schließlich für yolov8n entschieden.

@@ -19,9 +19,9 @@ In anderen Projekten habe ich auch gesehen, dass manche Leute yolov8x verwenden.
 Um die Gesamtzahl der Fahrzeuge zu bestimmen, die in einen bestimmten Bereich einfahren, habe ich zwei Linien zum Video hinzugefügt, eine horizontale und eine Linie. In der Datei „renderBox.js“ können Sie die Position dieser beiden Linien durch Anpassung der folgenden drei Variablen nach Ihren Bedürfnissen individuell gestalten:
 
 ```javascript
-const crossLineHeight = ctx.canvas.height * 4 / 8; // Bitte verwenden Sie einen neuen Variablennamen
-const crossLineWidth2 = ctx.canvas.width * 1; // Dies ist ein Beispielwert, bitte passen Sie ihn entsprechend Ihren Bedürfnissen an
-const crossLineWidth1 = ctx.canvas.width * 0.40; // Bitte passen Sie diesen Wert ebenfalls entsprechend an
+const crossLineHeight = ctx.canvas.height * 4 / 8; 
+const crossLineWidth2 = ctx.canvas.width * 1; 
+const crossLineWidth1 = ctx.canvas.width * 0.40; 
 ```
 
 Mit diesen Variablen können Sie die Position der beiden Linien individuell einstellen, um sie an die spezifischen Anforderungen Ihres Einsatzszenarios anzupassen.

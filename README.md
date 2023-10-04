@@ -37,22 +37,7 @@ Das Ziel dieses Projekts ist es, mit einem gut trainierten Modell die Anzahl und
 
 Der Anwendungsbereich dieses Projekts kann weiter ausgedehnt werden und ist nicht nur auf Autobahnen beschränkt, sondern kann auch auf Flüsse, Fußgängerzonen, Eisenbahnschienen usw. angewendet werden.
 
-##Einrichtung
 
-```shell
-git clone https://github.com/Hyuto/yolov8-tfjs.git
-cd yolov8x
-yarn install #Install dependencies
-```
-
-##Skripte
-
-```shell
-yarn start # Start dev server
-yarn build # Build for productions
-```
-
-## Reference
 
 - https://github.com/ultralytics/ultralytics
 - https://github.com/Hyuto/yolov8-onnxruntime-web

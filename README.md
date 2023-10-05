@@ -9,7 +9,7 @@
 
 Through the link below, you can directly upload and test your images or videos, even test video streams from your camera.
 
-**LINK zur KI-Gesichtsmaskenerkennung direkt in Browser:**
+**LINK :**
   https://miaoima.github.io/Vehicle_Identification/
 ---
 ---
